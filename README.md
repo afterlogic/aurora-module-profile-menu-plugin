@@ -1,0 +1,1 @@
+# aurora-module-profile-menu-plugin
