@@ -1,0 +1,16 @@
+<span class="item first-child has_control profile" data-bind="dropdown: {control: true}">
+	<span class="helper has_control" data-bind="text: linkText"></span>
+	<a class="link" href="javascript: void(0);">
+		<span class="text" data-bind="text: linkText"></span>
+	</a>
+	<span class="control"></span>
+	<span class="dropdown">
+		<span class="dropdown_helper">
+			<span class="dropdown_arrow"><span></span></span>
+			<span class="dropdown_content">
+				<a href="#settings" class="item" data-bind="i18n: {'key': 'COREWEBCLIENT/HEADING_SETTINGS_TABNAME'}"></a>
+				<span class="item" data-bind="i18n: {'key': 'COREWEBCLIENT/ACTION_LOGOUT'}, click: function () { $root.logout(); }"></span>
+			</span>
+		</span>
+	</span>
+</span>
